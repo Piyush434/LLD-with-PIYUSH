@@ -58,7 +58,7 @@ class CheckoutService {
     }
 }
 
-class Main {
+class AdapterMain {
     public static void main(String[] args) {
         // Using razorpay payment gateway adapter to process payment
         CheckoutService checkoutService =
