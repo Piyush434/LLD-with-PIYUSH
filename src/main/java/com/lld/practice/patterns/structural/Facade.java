@@ -62,7 +62,7 @@ class MovieBookingFacade {
 }
 
 // Client Code
-class Main {
+class MainFacade {
     public static void main(String[] args) {
         MovieBookingFacade bookingSys = new MovieBookingFacade();
         bookingSys.bookMovieTicket("user123", "movie456", "A10", "user@example.com", 500);
